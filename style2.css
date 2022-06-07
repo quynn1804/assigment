@@ -1,0 +1,22 @@
+.box {
+height: 300px;
+background-color: yellow;
+.border{
+    border: 5px solid;
+}
+}
+@media (min-width: 768px) {
+    .box{
+        background-color: green;
+    }
+}
+@media (min-width: 1280px) {
+    .box{
+        background-color: red;
+    }
+}
+@media (min-width: 1366px) {
+    .box{
+        background-color: blue;
+    }
+}
