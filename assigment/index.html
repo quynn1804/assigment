@@ -2,62 +2,123 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vite App</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;500;900&display=swap" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="/assigment/style.css">
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
-  <div id="app">
-    <script type="module" src="/main.js"></script>
-    <div class="container ">
-      <div class="header">
-        <ul class="flex justify-end">
-          <li><a class="" href="">Work</a></li>
-          <li><a class="" href="">Blog</a></li>
-          <li><a class="" href="">Contact</a></li>
-        </ul>
-      </div>
-      <div class="header-main grid-cols-2">
-        <div class="">
-          <h1>Hi, I am John,
-            Creative Technologist</h1>
-          <h2>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis
-            enim
-            velit mollit. Exercitation veniam consequat sunt nostrud amet.</h2>
-          <button> Download Resume</button>
-        </div>
-        <div class="">
-          <img class="" src="img/Ellipse 1avata.jpg" alt="">
-        </div>
+    <div id="app">
+        <div class="container m-auto">
+            <div class="header mx-auto mb-28">
+                <div class="h-menu mb-40 mt-4">
+                    <ul class="flex justify-end mr-60">
+                        <li class="mr-4"><a href="works.html"><b>Works</b></a></li>
+                        <li class="mr-4"><a href="blog.html"><b>Blog</b></a></li>
+                        <li class="mr-4"><a href=""><b>Contact</b></a></li>
+                    </ul>
+                </div>
+                <div class="h-content md:grid md:grid-cols-2  ml-24 ">
+                    <div class="h-text ">
+                        <h1 class="text-5xl	mb-8 drop-shadow-lg	"><b>Hi, I am John, <br> Creative Technologist</b></h1>
+                        <p class="mb-8">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                            officia
+                            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. </p>
+                        <button class="border px-4 py-2 bg-[#FF6464] text-white">Download Resume</button>
+                    </div>
+                    <div class="h-logo ml-40 ">
+                        <img src="imgs/home/Ellipse 1john.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- End Header -->
+            <div class="main-content mx-auto">
+                <div class="content-head md:grid md:grid-cols-2  h-[800px] md:h-[400px] bg-[#EDF7FA]  mb-[50px] md:mb-0 ">
+                    <div class="content-left">
+                        <span class="ml-28"><a href="">Recent posts</a></span>
+                        <div class="mt-16 w-[418px] mx-auto bg-white rounded-lg px-10 pt-2 w-[350px]	">
+                            <h2 class="text-lg mb-4
+                        "><b><a href="">Making a design system from scratch</a></b></h2>
+                            <p class="mb-4">12 Feb 2020 | Design, Pattern</p>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                                consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. </p>
+                        </div>
+                    </div>
+                    <div class="content-right mb-8 ">
+                        <span><a href="" class="ml-96 pl-20  text-cyan-400 hidden 	">View all</a></span>
+                        <div class="mt-16 w-[418px] mx-auto bg-white rounded-lg	px-10 pt-2 w-[350px]">
+                            <h2 class="text-lg mb-4
+                        "> <b><a href="">Creating pixel perfect icons in Figma</a></b></h2>
+                            <p class="mb-4">12 Feb 2020 | Figma, Icon Design</p>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                                consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-footer ml-[25%] md:ml-[0%] md:mt-8  ">
+                    <span class="ml-[70px] md:ml-28   ">Featured works</span>
+                    <div class="item md:flex md:ml-28">
+                        <div class="img mr-4  md:pt-0 md:w-60"><a href=""><img src="imgs/home/Rectangle 30dashboard.jpg" alt=""></a></div>
+                        <div class="content w-[250px] md:w-[800px]">
+                            <p class="text-2xl mb-4 text-blue-900 w-[300px] md:w-[400px]"><b><a href="">Designing Dashboards</a></b></p>
+                            <span class="mr-4  rounded-2xl px-2 bg-[#142850] text-white"><a href="">2020</a></span>
+                            <span class="text-[#8695A4]"><a href="">Dashboard</a></span>
+                            <p class="mt-8 sm:max-w">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                                Velit officia
+                                consequat duis enim <br> velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                            </p>
+                        </div>
+                    </div>
+                    <hr class="mt-8">
+                    <div class="item flex md:ml-28 mt-8">
+                        <div class="img mr-4 w-[200px] pt-16 md:pt-0 md:w-60"><a href=""><img src="imgs/home/Rectangle 32lllustration.jpg" alt=""></a></div>
+                        <div class="content w-[250px] md:w-[800px]">
+                            <p class="text-2xl mb-4 text-blue-900 w-[250px] md:w-[400px]	"><b><a href="">Vibrant Portraits of 2020</a></b></p>
+                            <span class="mr-4  rounded-2xl px-2 bg-[#142850] text-white"><a href="">2018</a></span>
+                            <span class="text-[#8695A4]"><a href="">Illustration</a></span>
+                            <p class="mt-8">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                                Velit officia
+                                consequat duis enim <br> velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                            </p>
+                        </div>
+                    </div>
+                    <hr class="mt-8">
+                    <div class="item flex md:ml-28 mt-8">
+                        <div class="img mr-4 w-[200px] pt-16 md:pt-0 md:w-60"><a href=""><img src="imgs/home/Rectangle 34typography.jpg" alt=""></a></div>
+                        <div class="content w-[250px] md:w-[800px]">
+                            <p class="text-2xl mb-4 text-blue-900 w-[250px] md:w-[400px]	"><b><a href="">36 Days of Malayalam type</a></b></p>
+                            <span class="mr-4 rounded-2xl px-2 bg-[#142850] text-white"><a href="">2018</a></span>
+                            <span class="text-[#8695A4]"><a href="">Typography</a></span>
+                            <p class="mt-8">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                                Velit officia
+                                consequat duis enim <br> velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                            </p>
+                        </div>
+                    </div>
+                    <hr class="mt-8">
 
-      </div>
-      <div class="grid-cols-2">
-        <div>
-          <h1>Recent posts</h1>
+                </div>
+            </div>
+            <!-- End main content -->
+            <div class="footer  mx-auto mt-16">
+                <div class="flex mx-auto ml-32 ml-[100px] sm:ml-[250px] md:ml-[500px] ">
+                    <a href=""><img class="mx-4" src="imgs/home/fbfbicon.svg" alt=""></a>
+                    <a href=""> <img class="mx-4" src="imgs/home/instainstaicon.png" alt=""></a>
+                    <a href=""><img class="mx-4" src="imgs/home/Grouptwittericon.png" alt=""></a>
+                    <a href=""><img class="mx-4" src="imgs/home/Linkedinlinkedinicon.png" alt=""></a>
+                </div>
+                <p class="mx-auto mt-4 ml-32 ml-[100px] sm:ml-[250px]  md:ml-[500px]">Copyright ©2020 All rights reserved </p>
+            </div>
         </div>
-        <div>
-          <button>View all</button>
-        </div>
-      </div>
-      <div class="grid-cols-2">
-        <div class="">
-          <h1>Making a design system from scratch</h1>
-          <div>
-
-          </div>
-        </div>
-      </div>
-
     </div>
-  </div>
-
+    <script type="module" src="/main.js"></script>
 </body>
 
 </html>
