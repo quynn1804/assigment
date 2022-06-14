@@ -13,7 +13,7 @@ console.log(sum(10, 20));
 //ví dụ 2
 const productlist = [
     { id: 1, name: "quý" },
-    { id: 2, name: "bodoi" },
+    { id: 2, name: "bodoi" }
 ];
 
 function xuatproductlist(productlist) {
